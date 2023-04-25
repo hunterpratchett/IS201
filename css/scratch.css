@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.center-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.positioned-div {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.footer-div {
+    text-align: center;
+}
+Now, you can apply the .positioned-div and .footer-div classes to the divs in your HTML file to meet the requirement of specifying and applying at least three divs. For example, you can apply .positioned-div to the div containing the "Go To The Top" link and .footer-div to the footer section:
+
+html
+Copy code
+<div class="center-bold positioned-div"><a href="#top">Go To The Top</a></div>
+and
+
+html
+Copy code
+<section>
+    <footer class="footer-div">
+        <ul>
+            <li><a href="index.html">Go Home</a></li>
+        </ul>
+    </footer>
+</section>
